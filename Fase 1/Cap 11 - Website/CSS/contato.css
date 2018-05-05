@@ -1,0 +1,38 @@
+/* Coloca o campo em foco com fundo levemente amarelado */
+input:focus, textarea:focus {
+    background-color: #FFD;
+}
+
+main {
+    font-family: 'Mina', sans-serif;
+}
+
+legend {
+    font-weight: bold;
+    margin-top: 1em;
+    
+}
+
+/* As tags <label> que têm o atributo "for" são os rótulos dos campos sem ser os assuntos */
+label[for] {
+    display: block;
+}
+
+/* Seleciona apenas os campos de texto */
+input[type="text"],input[type="number"], input[type="email"], textarea {
+    /* Força o navegador a usar a mesma fonte da página */
+    font-family: inherit;
+    /* Inclusive o tamanho dela */
+    font-size: 100%;
+    padding: .25em .5em;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 0 0;
+}
+
+fieldset {
+    width: 35%;
+}
+
+

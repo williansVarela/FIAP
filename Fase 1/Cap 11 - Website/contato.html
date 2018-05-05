@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <!--Aluno: Willians T. Varela RM 80587 -->
+        <title>Contato</title>
+        <link rel="icon" href="imagens/icon.png">
+        <meta charset="utf-8">
+        <meta name="keywords" content="tecnologia, robô, saúde, crianças, vida, futuro">
+        <!-- IE-->
+        <link rel="shortcut icon" type="image/x-icon" href="imagens/icon.png" />
+        <!-- Outros navegadores -->
+        <link rel="icon" type="image/x-icon" href="imagens/icon.png" />
+        <link rel="stylesheet" href="CSS/site.css">
+        <link rel="stylesheet" href="CSS/contato.css">
+        <!-- Fontes -->    
+        <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+    </head>
+    <body>
+        <nav role="navigation">
+            <a href="index.html" tabindex="1">Home</a> |
+            <a href="CHiP.html" tabindex="2">Robô CHiP</a> |
+            <a href="dash&dot.html" tabindex="3">Dash & Dot</a> |
+            <a href="contato.html" tabindex="4">Contato</a>
+        </nav>
+        <main>
+            <section id="conteiner">
+            <h1 class="tituto-inicial">Fale Conosco!</h1>
+            <br>
+            <h2>Crítica, sugestão ou elogio?</h2>
+            <p>Fale com a gente pelo formulário abaixo:</p>
+            <br><br>
+            
+            <form id="formulario" action="feedback.html">
+                
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" autofocus required pattern="[A-Za-z ']*" title="O nome não deve conter caracteres numéricos">
+
+                    <label for="idade">Idade: </label>
+                    <input type="number" id="idade" name="cli_idade" placeholder="Digite sua idade" min="0" required />
+
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="cli_email" placeholder="Digite o endereço de e-mail" required />
+                    
+                </fieldset>
+                
+                <fieldset>
+                    
+                    <legend>Assunto</legend>
+                    
+                    <label for="motivo-contato">Motivo do contato:</label>
+                    <input type="text" id="motivo-contato" list="opcoes-motivo" name="motivo">
+                    <datalist id="opcoes-motivo">
+                        <option value="Crítica">Crítica</option>
+                        <option value="Sugestão">Sugestão</option>
+                        <option value="Elogio">Elogio</option>
+                    </datalist>
+                    
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg" name="mensagem" rows="5" cols="50" placeholder="Digite aqui sua mensagem."></textarea>                    
+
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+            </section>
+            
+        </main>
+        <footer>
+            &copy; 2018 Willians Tavares Varela RM 80587 | Fiap Projeto Health Track
+        </footer>
+    </body>
+</html>

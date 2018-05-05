@@ -1,0 +1,70 @@
+.tituto-inicial {
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Bevan', cursive;
+}
+
+nav {
+    text-transform: uppercase;
+    font-family: "Arial", sans-serif;
+    margin: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+}
+
+section a{
+    font-size: 20px;
+}
+
+p {
+    font-size: 125%;
+}
+
+#tabela01-fonte {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.marginbottomzero {
+    margin-bottom: 0;
+}
+
+.marginzero {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    margin: auto;
+}
