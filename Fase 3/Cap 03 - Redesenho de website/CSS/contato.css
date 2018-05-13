@@ -7,13 +7,14 @@ main {
     font-family: 'Mina', sans-serif;
 }
 
-legend {
-    font-weight: bold;
-    margin-top: 1em;
-    
+form {
+    margin-top: 3rem;
 }
-
-/* As tags <label> que têm o atributo "for" são os rótulos dos campos sem ser os assuntos */
+label {
+    padding: .25rem;
+    padding-left: 0px;
+}
+/* As tags <label> que têm o atributo "for" são os rótulos dos campos */
 label[for] {
     display: block;
 }
@@ -24,7 +25,7 @@ input[type="text"],input[type="number"], input[type="email"], textarea {
     font-family: inherit;
     /* Inclusive o tamanho dela */
     font-size: 100%;
-    padding: .25em .5em;
+    padding: .25rem .5rem;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -32,7 +33,30 @@ input[type="text"],input[type="number"], input[type="email"], textarea {
 }
 
 fieldset {
-    width: 35%;
+    width: 48%;
 }
 
+#contact-box {
+    margin: auto;
+    width: 70%;
+}
 
+#formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#botao-enviar {
+    background-color: #00b2e3;
+    width: 6rem;
+    padding: .2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
