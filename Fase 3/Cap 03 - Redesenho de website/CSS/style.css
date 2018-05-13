@@ -1,3 +1,35 @@
+#navbar {
+    background-color: black;
+    width: 100%;
+}
+
+nav {
+    font-family: "Arial", sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: .7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background: #358989;
+    border-right: 5px solid #2B6F6F;
+}
+
+
+
+
 .tituto-inicial {
     font-size: 40px;
     text-align: center;
@@ -5,19 +37,8 @@
     font-family: 'Bevan', cursive;
 }
 
-nav {
-    text-transform: uppercase;
-    font-family: "Arial", sans-serif;
-    margin: 15px;
-    padding-bottom: 50px;
-    text-align: center;
-}
 
-nav a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #222;
-}
+
 
 section a{
     font-size: 20px;
