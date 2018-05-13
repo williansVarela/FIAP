@@ -50,20 +50,12 @@ h3 {
     font-weight: bold;
 }
 
-
-
-
-
-
-section a{
-    font-size: 20px;
+b {
+    font-weight: bold;
 }
 
-p {
-    font-size: 125%;
-}
 
-#tabela01-fonte {
+#tabela-fonte {
     margin: 0;
     text-align: center;
     font-size: 15px;
@@ -71,5 +63,29 @@ p {
 }
 
 table {
-    margin: auto;
+    margin: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+table td, table th {
+    padding: 1rem;
+    border: 2px solid #FFF;
+}
+
+table tr {
+    background-color: #8BE2EB;
+}
+
+table tr:nth-child(even){background-color: #74BDC4;}
+
+table tr:hover {background-color: #5D999E; font-weight: bold}
+
+table th {
+    padding: .7rem;
+    background-color: #353535;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
