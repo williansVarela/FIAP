@@ -1,0 +1,8 @@
+#bg-chip {
+    background-image: url("../imagens/background_chip.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}

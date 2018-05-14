@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 main {
@@ -13,7 +14,7 @@ main {
 }
 
 nav {
-    font-family: "Arial", sans-serif;
+    font-family: "Arial", 'Roboto Condensed', sans-serif;
     font-size: 1.1rem;
     text-transform: uppercase;
     text-align: center;
@@ -119,7 +120,7 @@ table th {
 }
 
 #bg-home {
-    background-image: url("imagens/background_home.jpg");
+    background-image: url("../imagens/background_home.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -159,3 +160,10 @@ table th {
     font-family: 'Mina', sans-serif;
     font-weight: bold;
 }
+
+#box-card-home a:hover {
+    text-shadow: 0 .1rem .2rem rgba(0,0,0, .8);
+}
+
+/* Fim Home */
+
