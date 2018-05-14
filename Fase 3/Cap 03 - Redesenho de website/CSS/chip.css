@@ -6,3 +6,26 @@
     background-size: cover;
     margin-bottom: 50px;
 }
+
+.dash-flexbox {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.dash-video {
+	width: 40%;
+}
+
+.dash-txpart01 {
+	width: 58%;
+}
+
+.dash-txpart01 h2 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.dash-txpart01 p {
+	padding-bottom: 2rem;
+}
