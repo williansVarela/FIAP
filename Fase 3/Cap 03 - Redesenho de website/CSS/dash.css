@@ -1,4 +1,4 @@
-#bg-chip {
+#bg-dash {
     background-image: url("../imagens/background_chip.jpg");
     height: 100%; 
     background-position: center;
@@ -11,6 +11,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin: 2rem;
 }
 
 .box-video {
@@ -27,5 +28,5 @@
 }
 
 .box-texto p {
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
