@@ -1,3 +1,8 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 #navbar {
     background-color: #141414;
     width: 100%;
@@ -39,7 +44,7 @@ footer {
 h1 {
     font-size: 4rem;
     font-weight: bold;
-    margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 h2 {
@@ -54,6 +59,15 @@ b {
     font-weight: bold;
 }
 
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#conteiner-home {
+    width: 80%;
+    margin: auto;
+}
 
 #tabela-fonte {
     margin: 0;
@@ -63,7 +77,7 @@ b {
 }
 
 table {
-    margin: 1rem;
+    margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -88,4 +102,13 @@ table th {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+#bg-home {
+    background-image: url("imagens/background_home.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
 }
