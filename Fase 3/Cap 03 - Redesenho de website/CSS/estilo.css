@@ -77,6 +77,10 @@ p {
 .titulo-centro {
     text-align: center;
 }
+
+
+
+
 /* HOME */
 
 .tituto-inicial {
@@ -174,6 +178,9 @@ table th {
 
 /* Fim Home */
 
+
+
+
 /* Inicio Modal */
 /* Modal (background) */
 .modal {
@@ -191,7 +198,7 @@ table th {
 
 /* Conteúdo do Modal */
 .modal-content {
-    background-color: #49C9C9;
+    background-color: #4FD9D9;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -212,4 +219,13 @@ table th {
     text-decoration: none;
     cursor: pointer;
 }
+/* Modal Mensagem Enviada - Contato */
+#msg-enviada {
+    display: none;
+    text-align: center;
+}
 /* Fim Modal */
+
+
+
+

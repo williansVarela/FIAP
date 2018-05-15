@@ -51,11 +51,11 @@ fieldset {
     padding: .2rem;
     font-size: 1.1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#rodape {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+#mensagem-erro {
+    color: red;
 }
+
