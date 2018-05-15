@@ -22,5 +22,12 @@ window.onclick = function(event) {
 var date = new Date();
 document.getElementById("data").innerHTML = "Data: " + date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
 //Hora
-document.getElementById("hora").innerHTML = " Hora: " + date.getHours() + ":" + date.getMinutes();
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+};
+
+document.getElementById("hora").innerHTML = " Hora: " + addZero(date.getHours()) + ":" + addZero(date.getMinutes());
 //Fim Data e Hora
