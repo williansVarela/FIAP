@@ -51,6 +51,7 @@ footer {
 h1 {
     font-size: 4rem;
     font-weight: bold;
+    font-family: 'Paytone One', 'Roboto Condensed', sans-serif;
     padding-top: 5rem;
 }
 
@@ -59,6 +60,7 @@ h2 {
 }
 
 h3 {
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -71,7 +73,7 @@ p {
     margin-bottom: 1rem;
 }
 
-.centralizado {
+.titulo-centro {
     text-align: center;
 }
 /* HOME */
