@@ -1,5 +1,5 @@
 #bg-dash {
-    background-image: url("../imagens/background_chip.jpg");
+    background-image: url("../imagens/background_dash.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -30,3 +30,27 @@
 .box-texto p {
 	padding-bottom: 1rem;
 }
+
+/* flexbox img*/
+
+.acc-dash-card > div {
+	width: 260px;
+}
+
+.acc-dash-card p {
+	font-size: .8rem;
+	margin: 0;
+	padding: 0;
+}
+
+.txt-card-dash {
+	height: 2.5rem;
+}
+
+.txt-card-dash h3 {
+	text-transform: uppercase;
+    font-family: 'Mina', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+

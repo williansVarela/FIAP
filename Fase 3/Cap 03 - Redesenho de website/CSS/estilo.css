@@ -70,6 +70,10 @@ p {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.centralizado {
+    text-align: center;
+}
 /* HOME */
 
 .tituto-inicial {
@@ -138,7 +142,8 @@ table th {
 
 .box-card-flex > div {
     text-align: center;
-    width: 45%;
+    width: 320px;
+    margin-bottom: 2rem;
     box-shadow: 0 .5rem 1.2rem 0 rgba(0,0,0, .5);
 }
 
@@ -146,18 +151,18 @@ table th {
     box-shadow: 0 .5rem 1.5rem 0 rgba(0,0,0, .7);
 }
 
-.r-card-link {
-    font-size: 1.7rem;
+.r-card-link, .txt-card-dash{
     padding: .8rem;
     background: #3FA3A3;
 }
 
-.box-card-flex a{
+.r-card-link a{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     font-family: 'Mina', sans-serif;
     font-weight: bold;
+    font-size: 1.7rem;
 }
 
 .box-card-flex a:hover {
@@ -165,4 +170,3 @@ table th {
 }
 
 /* Fim Home */
-
