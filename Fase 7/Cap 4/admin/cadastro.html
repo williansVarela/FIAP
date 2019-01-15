@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+        <!--Aluno: Willians T. Varela RM 80587 -->
+        <title>Administração do Blog</title>
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link rel="icon" href="../images/icon.png">
+        <!-- IE -->
+        <link rel="shortcut icon" type="../images/x-icon" href="../images/icon.png" />
+        <!-- Outros navegadores -->
+        <link rel="icon" type="../images/x-icon" href="../images/icon.png" />
+        <!-- Css -->
+        <link rel="stylesheet" href="../CSS/bootstrap.min.css" id="bootstrap-css">
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>
+    <body>
+        <div class='container'>
+            <header>
+                <div class='row'>
+                    <div class='col-sm-3'>
+                        <img src="../images/logo.png" alt="logo" width=100% height=100% class='logo'>
+                    </div>
+                    <div class='col-sm-6 navbar'>
+                        <h2>Gerenciamento do Blog</h2>
+                    </div>
+                    
+                    <div class='col-sm-3' >
+                        <?php
+                            date_default_timezone_set('America/Sao_Paulo');
+                            echo date("d") . " de " . date("M") . " de ". date("Y") . " - " . date("h:ia");
+                        ?>
+                    </div>
+                </div>
+            </header>
+            <div class='row'>
+                <div class='col-sm-3'>
+                    <div id="sidebar-wrapper" class="sidebar-toggle">
+                        <ul class="sidebar-nav">
+                            <li>
+                                <a href="../blog.php">MEU BLOG</a>
+                            </li>
+                            <li>
+                                <a href="listar.php">Listar Posts</a>
+                            </li>
+                            <li>
+                                <a href="cadastro.html">Inserir novo Post</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class='col-sm-9'>
+                    <h4 class='meu-blog'>Inserir novo Post</h4>
+
+                    <form class="form-horizontal" name="formulario" action="inserir.php" method="POST">
+                        <fieldset>
+                            <!-- Titulo input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="title">Título do post</label>
+                                <div class="col-md-9">
+                                    <input id="title" name="title" type="text" placeholder="Digite o título" class="form-control" autofocus required>
+                                </div>
+                            </div>
+                    
+                            <!-- categoria input-->
+                            <div class="form-group">
+                            <label class="col-md-3 control-label" for="category">Categoria do Post</label>
+                                <div class="col-md-9">
+                                    <input id="category" list="opcoes-categoria" name="category" type="text" placeholder="Selecione a categoria do post" class="form-control" required>
+                                    <datalist id="opcoes-categoria">
+                                        <option>Tecnologia</option>
+                                        <option>Robótica</option>
+                                        <option value="Inovação">Inovação</option>
+                                        <option value="Curiosidade">Curiosidade</option>
+                                    </datalist>
+                                </div>
+                            </div>
+
+                            <!-- Data e hora input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="date">Data da publicação</label>
+                                <div class="col-md-9">
+                                    <input id="date" name="date" type="date" placeholder="Digite a data do post" class="form-control" required>
+                                </div>
+                            </div>
+                    
+                            <!-- Conteúdo do post input -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="content">Conteúdo</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="content" name="content" placeholder="Digite o conteúdo do post aqui" rows="5" required></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Imagem input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="image">Imagem</label>
+                                <div class="col-md-9">
+                                    <input id="image" name="image" type="text" placeholder="Digite o endereço da imagem" class="form-control" required>
+                                </div>
+                            </div>
+                    
+                            <!-- Form actions -->
+                            <div class="form-group">
+                                <div class="col-md-12 btn-submit text-left">
+                                    <button type="submit" name="submit" class="btn btn-primary btn-lg">INSERIR POST</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    
+                </div>
+            </div>
+            <footer id="sitefooter" class="card-footer container">
+                <p class='text-center'>Endereço da empresa: Av. Heisemberg, 1932 - São Paulo, SP</p>
+            </footer>
+        </div>
+        <script src="../js/bootstrap.min.js"></script>
+	</body>
+</html> 

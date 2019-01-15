@@ -1,0 +1,141 @@
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.logo {
+    padding: 0.5rem 1rem;
+    padding-left: 0;
+
+}
+
+.navbar {
+
+    align-items: end;
+    padding: 0;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav a {
+    color: white
+}
+nav a:hover {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#sitefooter {
+    background:rgba(0, 0, 0, 0.9);
+    color: #aaa;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+/* .btn-submit {
+  margin-bottom: 5em;
+} */
+
+.meu-blog {
+    background-color: #5D999E;
+}
+
+.publicacoes {
+  margin-bottom: 2em;
+}
+
+
+
+#tabela-posts {
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+table td, table th {
+  padding: .3rem;
+  border: 2px solid #FFF;
+}
+
+table tr {
+  background-color: #8BE2EB;
+}
+
+table tr:nth-child(even){background-color: #74BDC4;}
+
+table tr:hover {background-color: #5D999E; text-shadow: 0 .1rem .1rem rgba(0,0,0, .8)}
+
+table th {
+  padding: .5rem;
+  background-color: #353535;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 3em;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.media-object {
+  display: block;
+  vertical-align: middle;
+  border: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.pull-left {
+  margin-right: 10px;
+}
+
+
+#sidebar-wrapper {
+  width: 100%;
+  color: black;
+  height: 15%;
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  list-style: none;
+  background-color: rgba(116,189,196,.6)
+}
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 50px;
+}
+.sidebar-nav li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+.sidebar-nav li a:hover {
+  background: rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+#sidebar-wrapper.sidebar-toggle {
+  transition: all 0.3s ease-out;
+}
+@media (min-width: 768px) {
+  #sidebar-wrapper.sidebar-toggle {
+    transition: 0s;
+  }
+}
